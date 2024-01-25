@@ -65,7 +65,7 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        { to: '/blog', label: 'Blog', position: 'left' },
+        // { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/indcv/industrialCV',
           label: 'GitHub',
@@ -79,10 +79,10 @@ const config: Config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/indcv/industrialCV',
@@ -93,6 +93,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} IndustrialCV. Built with Docusaurus.`,
     },
     prism: {
+      additionalLanguages: ['shell-session','powershell'],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
