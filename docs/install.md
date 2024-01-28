@@ -4,30 +4,62 @@ sidebar_position: 2
 
 # Installation
 
-First, download [repo](https://github.com/indcv/industrialCV):
+The library contains a few versions:
+- `Basic`: for use within your project;
+- `Web`: provides web endpoints;
+- `Dev`: development and testing version.
+
+Download [repo](https://github.com/indcv/industrialCV):
 
 ```powershell
 git clone https://github.com/indcv/industrialCV.git
 ```
 
-After that
+After that, move to the library directory:
 
 ```powershell
 cd industrialCV
 ```
 
-## Linux
+If required, create or activate a virtual environment:
 
-```shell-session
-python3 -m venv env
-source env/bin/activate
-pip install -e .
-```
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-## Windows
+<Tabs>
+  <TabItem value="unix" label="Unix/macOS" default>
+    ```shell-session
+    python3 -m venv env
+    source env/bin/activate
+    ```
+  </TabItem>
+  <TabItem value="win" label="Windows">
+    ```powershell
+    python -m venv env
+    . env\Scripts\activate
+    ```
+  </TabItem>
+</Tabs>
 
-```powershell
-python -m venv env
-. env\Scripts\activate
-pip install -e .
-```
+Next, specify which version you want to install:
+
+<Tabs>
+  <TabItem value="basic" label="Basic" default>
+    ```powershell
+    # Basic version
+    pip install -e .
+    ```
+  </TabItem>
+  <TabItem value="web" label="Web">
+    ```powershell
+    # Web version
+    pip install -e '.[web]'
+    ```
+  </TabItem>
+  <TabItem value="dev" label="Dev">
+    ```powershell
+    # Developer version
+    pip install -e '.[dev]'
+    ```
+  </TabItem>
+</Tabs>
