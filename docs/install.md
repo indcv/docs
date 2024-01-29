@@ -11,13 +11,13 @@ The library contains a few versions:
 
 Download [repo](https://github.com/indcv/industrialCV):
 
-```powershell
+```bash
 git clone https://github.com/indcv/industrialCV.git
 ```
 
 After that, move to the library directory:
 
-```powershell
+```bash
 cd industrialCV
 ```
 
@@ -28,13 +28,13 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="unix" label="Unix/macOS" default>
-    ```shell-session
+    ```bash
     python3 -m venv env
     source env/bin/activate
     ```
   </TabItem>
   <TabItem value="win" label="Windows">
-    ```powershell
+    ```bash
     python -m venv env
     . env\Scripts\activate
     ```
@@ -45,19 +45,19 @@ Next, specify which version you want to install:
 
 <Tabs>
   <TabItem value="basic" label="Basic" default>
-    ```powershell
+    ```bash
     # Basic version
     pip install -e .
     ```
   </TabItem>
   <TabItem value="web" label="Web">
-    ```powershell
+    ```bash
     # Web version
     pip install -e '.[web]'
     ```
   </TabItem>
   <TabItem value="dev" label="Dev">
-    ```powershell
+    ```bash
     # Developer version
     pip install -e '.[dev]'
     ```
