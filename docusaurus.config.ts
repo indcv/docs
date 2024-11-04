@@ -7,7 +7,7 @@ const projectName = "docs";
 
 const config: Config = {
   title: 'IndustrialCV Docs',
-  tagline: 'Industrial CV is a computer vision library for Python designed for use in manufacturing tasks.',
+  tagline: 'Industrial CV is a computer vision system for Python designed for use in manufacturing tasks.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -67,7 +67,7 @@ const config: Config = {
       items: [
         // { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/indcv/industrialCV',
+          href: 'https://github.com/indcv/indcv-server',
           label: 'GitHub',
           position: 'right',
         },
@@ -85,15 +85,15 @@ const config: Config = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/indcv/industrialCV',
+              href: 'https://github.com/indcv/indcv-server',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} IndustrialCV. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} IndustrialCV`,
     },
     prism: {
-      additionalLanguages: ['bash', 'shell-session','powershell'],
+      additionalLanguages: ['bash', 'shell-session','powershell', 'ini'],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },

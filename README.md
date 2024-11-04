@@ -2,11 +2,11 @@
 
 <p align="center"><img src="static/img/logo.png" width="128" height="128"></p>
 
-<p align="center"><a href="https://github.com/indcv/industrialCV">Project repositiry</a></p>
+<p align="center"><a href="https://github.com/indcv/indcv-server">Project repositiry</a></p>
 
-*Industrial CV* is a computer vision library for Python designed for use in manufacturing tasks.
+*Industrial CV* is a computer vision system for Python designed for use in manufacturing tasks.
 
-This website is built using [Docusaurus](https://docusaurus.io/).
+Built using [Docusaurus](https://docusaurus.io/).
 
 ### Installation
 
