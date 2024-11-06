@@ -9,16 +9,11 @@ sidebar_position: 2
 Create `.env` file in project root folder:
 
 ```ini
-LEVEL = "DEBUG" # Log level
-API_URL = "127.0.0.1" # Server URL
-API_PORT = "8000" # Port for client connections
-DB_NAME = "database.db"
-DOCS_ENABLE = True # Enable SwaggerUI
-FACE_MODEL_NAME = "VGG-Face" # ONNX face model name
-FACE_MODEL_PATH = "onnx_models/vgg_face.onnx" # Path to ONNX face model
-FACE_DETECTOR_NAME = "OpenCV" # Face detector name
-EXEC_PROVIDER = "CPU" # Model execution provider
-FACE_IMAGES_PATH = "face_img" # Folder with face images
+DOCS_ENABLE = True
+FACE_MODEL_NAME = "VGG-Face"
+FACE_MODEL_PATH = "onnx_models/vgg_face.onnx"
+FACE_DETECTOR_NAME = "OpenCV"
+FACE_IMAGES_PATH = "face_img"
 ```
 
 ## Create dataset folder
