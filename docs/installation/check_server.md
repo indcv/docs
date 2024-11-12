@@ -48,6 +48,17 @@ Now you can run server:
 fastapi run app.py
 ```
 
+:::info
+
+You can run without the `fastapi run` command if the environment is activated or if you install via `pip`.
+
+```sh
+python app.py
+```
+
+:::
+
+
 ### Send some request
 
 From code:
