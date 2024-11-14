@@ -93,7 +93,7 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} IndustrialCV`,
     },
     prism: {
-      additionalLanguages: ['bash', 'shell-session','powershell', 'ini'],
+      additionalLanguages: ['bash', 'shell-session','powershell', 'ini', 'json'],
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
